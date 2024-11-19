@@ -1,8 +1,7 @@
 import asyncio
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
-from keep_alive import keep_alive
-keep_alive()
+
 
 TELEGRAM_BOT_TOKEN = '7559793418:AAEcYYlxpU3iR9wK_hV_Qwb-m4WFC0ddxsw' # YOUR TOKEN
 ADMIN_USER_ID = 5879359815 #YOUR ID
